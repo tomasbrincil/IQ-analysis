@@ -1,0 +1,20 @@
+<FileHdr>
+   <Version>2</Version>
+   <Type>IFSignalProtocol</Type>
+   <Elements Source="1" Files="1" Frequencies="0" Discontinuities="0">2</Elements>
+   <Source>
+      <SourceID>0</SourceID>
+      <JobID>0</JobID>
+      <ActivityID>0</ActivityID>
+      <Time Start="1482241585347" End="1482241592000">[ms]</Time>
+      <Gps Lat="360.000000" Lon="360.000000">NO</Gps>
+   </Source>
+   <Files>
+      <!--SampleType 2IQ = 2 bytes integer sorted Re[2],Im[2][,Re,Im,...]-->
+      <!--SampleType 2I1024Q = 2 bytes integer sorted Re[1024][2],Im[1024][2][,...]-->
+      <Elements Content="1" Path="1" Name="1">3</Elements>
+      <Content Frequency="100000" BW="40000" Offset="0" ATT="0" AMP="0" SNR="0" SampleRate="50000" Sampless="1" SampleType="2IQ" SampleSize="WORD"/>
+      <Path Drive="D:" Dir="\DataMeas\IQ\" Extension=".binIQ" PartExtension="_P%u" Parts="1"/>
+      <Name>0.1MHz_20161220_144625.binIQ</Name>
+   </Files>
+</FileHdr>
